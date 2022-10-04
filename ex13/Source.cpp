@@ -11,23 +11,33 @@ int	main()
 
 	cout << "Primer jugador, escolleix el teu primer moviment: 1.Pedra  2.Paper  3.Tisora" << endl;
 	cin >> j1;
-
-	cout << "Segon jugador, escolleix el teu primer moviment: 1.Pedra  2.Paper  3.Tisora" << endl;
-	cin >> j2;
-
-	if (j1 == 1 && j2 == 3 || j1 == 2 && j2 == 1 || j1 == 3 && j2 == 2) {
-		cout << "Ha guanyat el primer jugador!" << endl;
+	if (j1 != 1 && j1 != 2 && j1 != 3) {
+		cout << "Has descollir entre 1.Pedra  2.Paper  3.Tisora" << endl;
 	}
 	else
 	{
-		if (j1 == 1 && j2 == 2 || j1 == 2 && j2 == 3 || j1 == 3 && j2 == 1) { 
-			cout << "Ha guanyat el segon jugador!" << endl;
-		}
-		else
-		{
-			cout << "Els dos jugadors han empatat!" << endl;
-		}
+		cout << "Segon jugador, escolleix el teu primer moviment: 1.Pedra  2.Paper  3.Tisora" << endl;
+			cin >> j2;
+			if (j2 != 1 && j2 != 2 && j2 != 3) {
+				cout << "Has descollir entre 1.Pedra  2.Paper  3.Tisora" << endl;
+			}
+			else
+			{
+				if (j1 == 1 && j2 == 3 || j1 == 2 && j2 == 1 || j1 == 3 && j2 == 2) {
+						cout << "Ha guanyat el primer jugador!" << endl;
+					}
+					else
+					{
+						if (j1 == 1 && j2 == 2 || j1 == 2 && j2 == 3 || j1 == 3 && j2 == 1) { 
+							cout << "Ha guanyat el segon jugador!" << endl;
+						}
+						else
+						{
+							cout << "Els dos jugadors han empatat!" << endl;
+						}
+					}
+			}
 	}
-
+	
 	return 0;
 }
