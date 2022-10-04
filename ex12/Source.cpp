@@ -7,6 +7,7 @@ petit del número que ha indicat l’usuari.*/
 int	main()
 {
 	int r, in, op, ext;
+	srand(time(NULL));
 	r = rand() % 10 + 1;
 	op = 3;
 	ext = 0;

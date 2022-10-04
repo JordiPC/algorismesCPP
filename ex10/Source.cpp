@@ -8,6 +8,7 @@ int	main()
 {
 	int r, in;
 
+	srand(time(NULL));
 	r = rand() % 10 + 1;
 	cout << "Encerta el numero entre l'1 i el 10: " << endl;
 	cin >> in;

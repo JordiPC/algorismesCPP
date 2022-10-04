@@ -6,6 +6,7 @@ using namespace std;
 int	main()
 {
 	int r, in, op, ext;
+	srand(time(NULL));
 	r = rand() % 10 + 1;
 	op = 3;
 	ext = 0;
