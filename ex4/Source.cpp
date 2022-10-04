@@ -1,6 +1,9 @@
 #include <iostream>
 using namespace std;
 
+/*Elaborar un programa que determini en una variable MIN el més petit dels
+valors de 4 variables A,B,C,D*/
+
 int	main()
 {
 	int a, b, c, d;

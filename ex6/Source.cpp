@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*Tenint en compte la següent equació x=10*a/b. Demanar per teclat el valor de
+a i b per a calcular el valor de X, tenint en compte que la divisió per cero
+donaria un error.*/
+
 int	main()
 {
 	int a, b, x;

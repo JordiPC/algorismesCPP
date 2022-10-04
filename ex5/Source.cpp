@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+/*Introduir 3 números i a continuació que els escrigui ordenats de major a menor.*/
+
 int	main()
 {
 	int a, b, c, d;
